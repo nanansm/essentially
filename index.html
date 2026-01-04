@@ -1,0 +1,268 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>The Wedding of Nanan & Rindhy — Essentially Ours</title>
+  <meta name="description" content="Undangan Pernikahan Nanan & Rindhy — 20 Januari 2026, Garut, Jawa Barat." />
+
+  <!-- Fonts (boleh ganti sesuai selera) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <!-- Subtle grain background -->
+  <div class="paper" aria-hidden="true"></div>
+
+  <!-- Top progress (mobile friendly) -->
+  <div class="topbar">
+    <div class="topbar__inner">
+      <span class="brand">Essentially <em>Ours</em></span>
+      <!-- <button class="btn btn--ghost" id="btnMusic" type="button" aria-pressed="false" title="Toggle music">
+        ♪
+      </button>-->
+    </div>
+    <div class="progress" aria-hidden="true">
+      <div class="progress__bar" id="scrollBar"></div>
+    </div>
+  </div>
+
+  <!-- Floating CTA -->
+  <div class="floating">
+    <a class="btn btn--primary" href="#rsvp">RSVP</a>
+    <a class="btn btn--ghost" href="#details">Detail</a>
+  </div>
+
+  <main class="container">
+    <!-- HERO / COVER -->
+    <section class="hero reveal" id="top">
+      <div class="frame">
+        <div class="frame__corner frame__corner--tl"></div>
+        <div class="frame__corner frame__corner--tr"></div>
+        <div class="frame__corner frame__corner--bl"></div>
+        <div class="frame__corner frame__corner--br"></div>
+
+        <div class="hero__content">
+          <img class="logo" src="assets/img/logoblack.webp" alt="Essentially Ours" />
+          <div class="monogram" aria-hidden="true">
+          </div>
+
+          <h1 class="title">
+            THE WEDDING OF
+            <span class="title__names">Rindhy <span class="sep">—</span> Nanan</span>
+          </h1>
+
+          <div class="meta">
+            <div class="meta__item">
+              <span class="meta__label">Tanggal</span>
+              <span class="meta__value">Selasa, 20 Januari 2026</span>
+            </div>
+            <div class="meta__item">
+              <span class="meta__label">Waktu</span>
+              <span class="meta__value">08.00 WIB</span>
+            </div>
+            <div class="meta__item">
+              <span class="meta__label">Kota</span>
+              <span class="meta__value">Garut, Jawa Barat</span>
+            </div>
+          </div>
+
+          <p class="guest" id="guestLine" aria-live="polite"></p>
+
+          <div class="hero__actions">
+            <a class="btn btn--primary" href="#invitation">Buka Undangan</a>
+            <a class="btn btn--ghost" href="#countdown">Countdown</a>
+          </div>
+
+          <p class="small-note">A wedding — Essentially <em>Ours</em></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- INVITATION LETTER -->
+    <section class="section reveal" id="invitation">
+      <header class="section__header">
+        <h2 class="h2">Undangan</h2>
+      </header>
+
+      <article class="letter card">
+        <p>
+          Kami percaya, pernikahan adalah keputusan hidup yang dijalani dengan kesadaran.
+          Bukan tentang satu hari, melainkan tentang hari-hari setelahnya.
+        </p>
+        <p>
+          Dengan niat tersebut, kami mengundang Bapak/Ibu/Saudara/i untuk hadir dan menyertai
+          awal kehidupan yang kami pilih bersama.
+        </p>
+        <p class="letter__em">
+          Kehadiran dan doa restu Anda menjadi bagian dari keputusan hidup ini.
+        </p>
+        <div class="divider" role="separator" aria-hidden="true"></div>
+        <p class="signature">
+          Rindhy Fazriani OS, S.E. &amp; <br>Nanan Somanan
+        </p>
+      </article>
+    </section>
+
+    <!-- COUNTDOWN -->
+    <section class="section reveal" id="countdown">
+      <header class="section__header">
+        <h2 class="h2">Menuju Hari Bahagia</h2>
+        <p class="subtle">20 Januari 2026 — 08.00 WIB</p>
+      </header>
+
+      <div class="countdown card">
+        <div class="countdown__grid" id="cd">
+          <div class="cd-item">
+            <div class="cd-num" id="cdDays">—</div>
+            <div class="cd-label">Hari</div>
+          </div>
+          <div class="cd-item">
+            <div class="cd-num" id="cdHours">—</div>
+            <div class="cd-label">Jam</div>
+          </div>
+          <div class="cd-item">
+            <div class="cd-num" id="cdMins">—</div>
+            <div class="cd-label">Menit</div>
+          </div>
+          <div class="cd-item">
+            <div class="cd-num" id="cdSecs">—</div>
+            <div class="cd-label">Detik</div>
+          </div>
+        </div>
+
+        <div class="countdown__actions">
+          <a class="btn btn--ghost" id="btnAddCal" target="_blank" rel="noopener">Add to Calendar</a>
+          <a class="btn btn--ghost" href="#map">Buka Peta</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- DETAILS -->
+    <section class="section reveal" id="details">
+      <header class="section__header">
+        <h2 class="h2">Detail Acara</h2>
+        <p class="subtle">Sederhana, jelas, seperlunya.</p>
+      </header>
+
+      <div class="grid-2">
+        <div class="card">
+          <h3 class="h3">Akad / Resepsi</h3>
+          <ul class="list">
+            <li><span class="k">Hari</span><span class="v">Selasa, 20 Januari 2026</span></li>
+            <li><span class="k">Waktu</span><span class="v">08.00 WIB</span></li>
+            <li><span class="k">Tempat</span><span class="v">Kediaman mempelai wanita</span></li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3 class="h3">Alamat</h3>
+          <p class="address" id="addressText">
+            Kp. Sirnasari RT 001/008 Kel. Maripari, Kec. Sukawening, Kab. Garut 44179
+          </p>
+          <div class="row">
+            <a class="btn btn--primary" id="btnMaps" target="_blank" rel="noopener">Open Google Maps</a>
+            <button class="btn btn--ghost" id="btnCopy" type="button">Copy</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- COUPLE -->
+    <section class="section reveal" id="couple">
+      <header class="section__header">
+        <h2 class="h2">Mempelai</h2>
+        <p class="subtle">Dua keluarga, satu keputusan hidup.</p>
+      </header>
+
+      <div class="grid-2">
+        <div class="card">
+          <h3 class="h3">Rindhy Fazriani OS, S.E.</h3>
+          <p class="subtle">Putri dari</p>
+          <h3 class="h3" style="font-size: 18px;">Bapak H. Dadang Hermawan A. &amp;<br>Ibu Hj. Leni Marlina</h3>
+        </div>
+        <div class="card">
+          <h3 class="h3">Nanan Somanan</h3>
+          <p class="subtle">Putra dari</p>
+          <h3 class="h3" style="font-size: 18px;">Bapak Agus Ramdani &amp;<br>Ibu Ropikoh</h3>
+        </div>
+      </div>
+    </section>
+
+    <!-- MAP -->
+    <section class="section reveal" id="map">
+      <header class="section__header">
+        <h2 class="h2">Peta</h2>
+        <p class="subtle">Arahkan perjalanan Anda dengan nyaman.</p>
+      </header>
+
+      <div class="card map">
+        <!-- Embed sederhana (tanpa API key): gunakan query address -->
+        <iframe
+          id="mapFrame"
+          title="Google Maps"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </section>
+
+    <!-- RSVP -->
+    <section class="section reveal" id="rsvp">
+      <header class="section__header">
+        <h2 class="h2">RSVP</h2>
+        <p class="subtle">Konfirmasi kehadiran</p>
+      </header>
+
+      <div class="card">
+        <form id="rsvpForm" class="form">
+          <div class="form__row">
+            <label class="label" for="rsvpName">Nama</label>
+            <input class="input" id="rsvpName" name="name" type="text" placeholder="Nama Anda" autocomplete="name" required />
+          </div>
+
+          <div class="form__row">
+            <label class="label" for="rsvpAttend">Kehadiran</label>
+            <select class="input" id="rsvpAttend" name="attend" required>
+              <option value="" selected disabled>Pilih</option>
+              <option value="Hadir">Hadir</option>
+              <option value="Berhalangan">Berhalangan</option>
+            </select>
+          </div>
+
+          <div class="form__row">
+            <label class="label" for="rsvpNotes">Catatan (opsional)</label>
+            <textarea class="input" id="rsvpNotes" name="notes" rows="3" placeholder="Contoh: datang pukul 10.00 / doa dari jauh"></textarea>
+          </div>
+
+          <div class="row">
+            <button class="btn btn--primary" type="submit">Kirim via WhatsApp</button>
+            <button class="btn btn--ghost" type="button" id="btnSaveLocal">Simpan lokal</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer reveal">
+      <p class="quote">
+        “Pernikahan ini tidak ingin diingat karena kemeriahannya, melainkan karena rasa yang ditinggalkannya.”
+      </p>
+      <br>
+      <p class="tiny subtle">Designed in the spirit of restraint — Essentially <em>Ours</em>.</p>
+      <a class="tiny link" href="#top">Kembali ke atas</a>
+    </footer>
+  </main>
+
+  <!-- Optional background audio (isi file sendiri) -->
+  <audio id="bgm" loop preload="none">
+    <!-- <source src="assets/bgm.mp3" type="audio/mpeg"> -->
+  </audio>
+
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
