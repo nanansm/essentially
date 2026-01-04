@@ -263,6 +263,8 @@ body{
   color: rgba(20,20,20,.75);
   font-size: 13px;
   min-height: 20px;
+  font-size: 18px;        /* LEBIH BESAR */
+  font-weight: 500;      /* BOLD HALUS */
 }
 .hero__actions{
   margin-top: 16px;
